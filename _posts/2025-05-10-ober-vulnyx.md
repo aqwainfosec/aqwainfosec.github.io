@@ -89,7 +89,7 @@ I was able to discover the October CMS Administration login page found in `/back
 
 <center>
 <figure>
-<img src="/assets/img/october_cms_login.png" style="width: 500px;">
+<img src="/assets/img/october_cms_login.png" style="width: 500px;" alt="October CMS Administration login page">
 <figcaption>Fig.1 - October CMS Administration login page</figcaption>
 </figure>
 </center>
@@ -102,7 +102,7 @@ October CMS allows PHP execution via functions such as *`onStart()`* (See [docs]
 
 <center>
 <figure>
-<img src="/assets/img/october_cms_php_shell.png" style="width: 1000px;">
+<img src="/assets/img/october_cms_php_shell.png" style="width: 1000px;" alt="PHP reverse shell included within the function onStart()">
 <figcaption>Fig.2 - PHP reverse shell included within the function onStart()</figcaption>
 </figure>
 </center>
