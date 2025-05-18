@@ -1,13 +1,10 @@
 ---
 title: VulNyx - Ober Writeup
 date: 2025-05-14 10:24:59 +0530
-categories: [Vulnyx]
+categories: [Vulnyx, Ober]
 tags: [vulnyx]
-show_image_post: true
-image: /assets/img/ober.png
----
-
-Hey everyone! This write-up covers the challenge “Ober” which was released on [VulNyx](https://vulnyx.com/). The box is rated easy and is an excellent challenge for those looking to start out. 
+description: Hey everyone! This write-up covers the challenge “Ober” which was released on https://vulnyx.com. The box is rated easy and is an excellent challenge for those looking to start out.
+--- 
 
 ## Reconnaissance
 
