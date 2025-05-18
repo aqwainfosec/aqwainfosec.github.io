@@ -85,7 +85,7 @@ Finished
 ===============================================================                                                                      
 ```
 <br>
-I was able to discover the October CMS Administration login page found in `/backend/backend/auth/signin`
+An October CMS Administration login page was discovered in `/backend/backend/auth/signin`
 
 <center>
 <figure>
@@ -94,11 +94,12 @@ I was able to discover the October CMS Administration login page found in `/back
 </figure>
 </center>
 
-I tested commonly used default credentials which resulted in a successful login using the credentials `admin:admin`
 
-## Shell
+After testing commonly used default credentials, I was able to successfully login to October CMS admin panel using the credentials `admin:admin`
 
-October CMS allows PHP execution via functions such as *`onStart()`* (See [docs](https://docs.octobercms.com/2.x/cms/pages.html#page-execution-life-cycle)). This allows us to include a PHP reverse shell the function *onStart()*.
+## Reverse Shell
+
+October CMS allows PHP execution via functions like *`onStart()`* (See [docs](https://docs.octobercms.com/2.x/cms/pages.html#page-execution-life-cycle)). This allows us to include PHP reverse shells within these functions.
 
 <center>
 <figure>
