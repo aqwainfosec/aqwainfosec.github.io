@@ -1,7 +1,7 @@
 ---
 title: VulNyx - Lower5 Writeup
 date: 2025-05-17 20:51:00 +0530
-categories: [Vulnyx, Lower5]
+categories: [Vulnyx]
 tags: [vulnyx]
 ---
 
