@@ -171,6 +171,13 @@ User low may run the following commands on lower5:
     (root) NOPASSWD: /usr/bin/pass
 
 ```
+```bash
+low@lower5:/var/www/html$ sudo -u root /usr/bin/pass
+Password Store
+`-- root
+    `-- password
+```
+
 Running the `pass` command prompts for a GPG passphrase:
 
 ```bash
