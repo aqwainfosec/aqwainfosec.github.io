@@ -1,8 +1,8 @@
 ---
 title: VulNyx - Lower5 Writeup
 date: 2025-05-17 20:51:00 +0530
-categories: [Vulnyx]
-tags: [vulnyx]
+categories: [Vulnyx, Writeups]
+tags: [vulnyx, linux]
 ---
 
 This write-up covers the solution to the low-difficulty machine "Lower5" released on [VulNyx](https://vulnyx.com/). The machine features a Local File Inclusion (LFI) vulnerability paired with log poisoning, ultimately leading to privilege escalation.

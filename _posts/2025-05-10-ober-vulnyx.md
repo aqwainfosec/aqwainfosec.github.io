@@ -1,8 +1,8 @@
 ---
 title: VulNyx - Ober Writeup
 date: 2025-05-14 10:24:59 +0530
-categories: [Vulnyx]
-tags: [vulnyx]
+categories: [Vulnyx, Writeups]
+tags: [vulnyx, linux]
 description: Hey everyone! This write-up covers the challenge “Ober” which was released on https://vulnyx.com. The box is rated easy and is an excellent challenge for those looking to start out.
 --- 
 
