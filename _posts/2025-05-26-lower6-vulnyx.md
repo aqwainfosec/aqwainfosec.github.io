@@ -2,8 +2,12 @@
 title: VulNyx - Lower6 Writeup
 date: 2025-05-26 17:00:00 +0530
 categories: [Vulnyx, Writeups]
-tags: [vulnyx, linux]
+tags: [linux, redis, setuid, privesc]
+description: 
 ---
+
+`Lower6` is a low difficulty linux box. This machine consists of brute-forcing a redis instance as well as SSH, dumping the redis database keys, and finally privilege escalation by abusing the `setuid` capability enabled in the `gdb` binary.
+
 ## Enumeration
 
 ### Port Scanning
