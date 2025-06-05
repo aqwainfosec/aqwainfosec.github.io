@@ -199,7 +199,7 @@ We identified a user `eve` on the target VM, and assuming that credenitals were 
 
 ### User flag
 
-![image.png](/assets/img/sales_vulnyx/image%209.png)
+![image.png](/assets/img/sales_vulnyx/image_9.png)
 
 ## Privilege Escalation
 
