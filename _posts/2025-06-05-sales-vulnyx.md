@@ -1,6 +1,6 @@
 ---
 title: VulNyx - Sales Writeup
-date: 2025-06-05 12:08:00 +0530
+date: 2025-06-05 17:03:00 +0530
 categories: [Vulnyx, Writeups]
 tags: [suitecrm, vhost, cve-2022-23940, ld_preload, credential_reuse, privesc, base64_shell, gobuster, wfuzz, intruder]
 ---
