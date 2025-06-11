@@ -118,13 +118,16 @@ We find exposed credentials for the user `remo`
 
 ### Environment variables
 
+```bash
+remo@observer:~$ env
+```
 We discovered an environment variable name `rootKEY` which appears to be encoded in `base64` 
 
 ![image.png](/assets/img/observer_vulnyx/image%204.png)
 
 ### Decoding base64 “rootKEY”
 
-We decoded the base64 encoded `rootKEY` which revealed an SSH private key which we stored in the file `private_key` and modified permissions.
+We decoded the `base64` encoded `rootKEY` which revealed an SSH private key which we stored in the file `private_key` and modified permissions.
 
 ```bash
 echo -n "redacted"| base64 -d > private_key
